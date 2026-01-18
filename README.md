@@ -313,10 +313,10 @@ Application will start on `http://localhost:8080`
 curl -X POST http://localhost:8080/api/users/register \
 -H "Content-Type: application/json" \
 -d '{
-  "username": "john_admin",
+  "username": "hari_admin",
   "password": "SecurePass123",
-  "email": "john@university.edu",
-  "fullName": "John Administrator",
+  "email": "hari@gmail.com",
+  "fullName": "hari Administrator",
   "role": "ADMIN"
 }'
 ```
@@ -325,9 +325,9 @@ curl -X POST http://localhost:8080/api/users/register \
 ```json
 {
   "id": "65b1a2c3d4e5f6a7b8c9d0e1",
-  "username": "john_admin",
-  "email": "john@university.edu",
-  "fullName": "John Administrator",
+  "username": "deep_admin",
+  "email": "deepsan@gmail.com",
+  "fullName": "Bhandari Administrator",
   "role": "ADMIN",
   "active": true,
   "createdAt": "2026-01-14T10:00:00",
@@ -342,7 +342,7 @@ curl -X POST http://localhost:8080/api/users/register \
 curl -X POST http://localhost:8080/api/users/login \
 -H "Content-Type: application/json" \
 -d '{
-  "username": "john_admin",
+  "username": "deep_admin",
   "password": "SecurePass123"
 }'
 ```
@@ -351,8 +351,8 @@ curl -X POST http://localhost:8080/api/users/login \
 ```json
 {
   "userId": "65b1a2c3d4e5f6a7b8c9d0e1",
-  "username": "john_admin",
-  "email": "john@university.edu",
+  "username": "deep_admin",
+  "email": "deep@gmail.com",
   "role": "ADMIN",
   "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqb2huX2FkbWluIiwicm9sZSI6IkFETUlOIiwidHlwZSI6IkFDQ0VTUyIsImlhdCI6MTY0MTIzNDU2NywiZXhwIjoxNjQxMjM1NDY3fQ.signature",
   "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqb2huX2FkbWluIiwidHlwZSI6IlJFRlJFU0giLCJpYXQiOjE2NDEyMzQ1NjcsImV4cCI6MTY0MTgzOTM2N30.signature",
@@ -380,9 +380,9 @@ curl -X POST http://localhost:8080/api/students \
 -H "Content-Type: application/json" \
 -d '{
   "userId": "65b1a2c3d4e5f6a7b8c9d0e3",
-  "firstName": "Alice",
-  "lastName": "Johnson",
-  "email": "alice@university.edu",
+  "firstName": "Deepsan",
+  "lastName": "Bhandari",
+  "email": "deepsan@gmail.com",
   "phoneNumber": "+1234567890",
   "address": "123 Campus Drive",
   "department": "Computer Science",
@@ -662,7 +662,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/DeepsanBhandari/)
+- GitHub: [@Deepsanbhandari](https://github.com/DeepsanBhandari/)
 - Email: deepsanbhandari7@gmail.com
 ---
 
